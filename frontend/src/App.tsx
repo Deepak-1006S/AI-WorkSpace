@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 import Header from './components/Header'
 import PredictForm from './components/PredictForm'
 import ResultCard from './components/ResultCard'
+import ChatSimulator from './components/ChatSimulator'
+import ImageSimulator from './components/ImageSimulator'
+import ModelsPanel from './components/ModelsPanel'
+import Settings from './components/Settings'
 import { predict } from './services/mockModel'
 interface Result {
   input_preview: string
